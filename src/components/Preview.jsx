@@ -7,7 +7,8 @@ const Preview = ({ content }) => {
   return (
     <div id="preview-container">
       <Header text="Previewer" />
-      <div id="preview">{marked.parse(content)}</div>
+      <div id="preview">{content}</div>
+      {/* <div id="preview">{marked.parse(content)}</div> */}
     </div>
   );
 };

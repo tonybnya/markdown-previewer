@@ -43,4 +43,49 @@
   width: 5%;
 }
 
+/* Mobile */
+@media (max-width: 480px) {
+  #container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #editor,
+  #preview {
+    height: 35vh;
+  }
+}
+/* Extra small devices */
+@media (min-width: 481px) and (max-width: 767px) {
+  #container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #editor,
+  #preview {
+    height: 40vh;
+  }
+}
+/* Small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  #container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #editor,
+  #preview {
+    height: 40vh;
+  }
+}
+/* Large tablets/laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #editor,
+  #preview {
+    height: 40vh;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
