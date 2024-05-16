@@ -9,8 +9,8 @@
 
 #editor,
 #preview {
-  height: 80vh;
-  padding: 5px;
+  height: 75vh;
+  padding: 10px;
 }
 
 #editor,
@@ -25,6 +25,7 @@
 }
 #preview-container #preview {
   border: 1px solid black;
+  overflow-y: auto;
 }
 
 .header {

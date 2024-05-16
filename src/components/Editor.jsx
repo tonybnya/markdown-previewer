@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/css/styles.css";
 import Header from "./Header";
+import defaultText from "../data/default.txt";
 
-const Editor = () => {
+const Editor = ({ content, setContent }) => {
   return (
     <div id="editor-container">
       <Header text="Editor" />
-      <textarea id="editor" placeholder="Enter text..."></textarea>
+      <textarea id="editor" value={defaultText}></textarea>
     </div>
   );
 };
